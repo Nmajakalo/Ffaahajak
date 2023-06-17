@@ -86,7 +86,7 @@ loadstring(game:HttpGet("https://glot.io/snippets/glkqkf1yus/raw/main.lua"))()
 
 if msg == '/torment' or msg == '/Torment' then
 
-loadstring(game:HttpGet("https://glot.io/snippets/glz7pawsna/raw/main.lua"))()
+loadstring(game:HttpGet("https://glot.io/snippets/glzwri7vs2/raw/main.lua"))()
        end
 
 if msg == '/A60' or msg == '/A-60' or msg == '/a60' or msg == '/a-60' then
