@@ -15,6 +15,10 @@ coroutine.wrap(function()
 				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Squid]</font> " .. message.PrefixText
 			end
 
+if message.TextSource.UserId == 419092128 then
+				props.PrefixText = "<font color='#a85232'>[Helper]</font> <font color='#a85232'>[RubenTheCat]</font> " .. message.PrefixText
+			end
+
 if message.TextSource.UserId == 3834105284 then
 				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Ame]</font> " .. message.PrefixText
 			end
@@ -50,7 +54,7 @@ loadstring(game:HttpGet("https://glot.io/snippets/gluaxm22bp/raw/main.lua"))()
        end
 				
 				if msg == '/rebound' or msg == '/Rebound' then
-					loadstring(game:HttpGet("https://glot.io/snippets/glyrawrec5/raw/main.lua"))()
+					loadstring(game:HttpGet("https://glot.io/snippets/gm047hdwli/raw/main.lua"))()
 				end
 				
 				if msg == '/hungered' or msg == '/Hungered' or msg == '/Hunger' or msg == '/hunger' then
@@ -64,7 +68,13 @@ loadstring(game:HttpGet("https://glot.io/snippets/glwzaz94z6/raw/main.lua"))()
 
 if msg == '/kill' or msg == '/bye' then
 					coroutine.wrap(function()
-						player.Character.Humanoid.Health = 0
+					local bruh = Instance.new("Sound", workspace)
+         bruh.SoundId = "rbxassetid://4869366338"
+         bruh.Volume = 3.7
+         bruh.Pitch = 0.9
+         bruh:Play()
+
+player.Character.Humanoid.Health = 0
 firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"L", "L", "L", "L", "L", "L", "L"}, "Blue")
 					end)()
 				end
@@ -82,11 +92,6 @@ loadstring(game:HttpGet("https://glot.io/snippets/gltlhbfra2/raw/main.lua"))()
 if msg == '/defuse' or msg == '/Defuse' then
 
 loadstring(game:HttpGet("https://glot.io/snippets/glkqkf1yus/raw/main.lua"))()
-       end
-
-if msg == '/torment' or msg == '/Torment' then
-
-loadstring(game:HttpGet("https://glot.io/snippets/glzwri7vs2/raw/main.lua"))()
        end
 
 if msg == '/A60' or msg == '/A-60' or msg == '/a60' or msg == '/a-60' then
